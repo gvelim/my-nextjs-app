@@ -1,6 +1,7 @@
 // Client Component (app/components/AddToCartButton.tsx)
 "use client";
 import React, { useState } from 'react';
+import styles from "./cartbutton.module.css";
 
 type AddToCartButtonProps = {
   productName: string;
@@ -45,7 +46,7 @@ export default function AddToCartButton({ productName }: AddToCartButtonProps) {
   return (
     <div>
       <p>Items in cart: {count}</p>
-      <button className="AddToCartButton" onClick={handleClick}>
+      <button className={styles.add_button}  onClick={handleClick}>
         Add {productName} to Cart
       </button>
       {basket && <p>Added to cart!</p>}
