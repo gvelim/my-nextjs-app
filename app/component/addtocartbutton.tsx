@@ -46,7 +46,7 @@ export default function AddToCartButton({ productName }: AddToCartButtonProps) {
   return (
     <div>
       <p>Items in cart: {count}</p>
-      <button className="${styles.cart_button} bg-green-500 text-white p-2 rounded-md"  onClick={handleClick}>
+      <button className={styles.cartbutton} onClick={handleClick}>
         Add {productName} to Cart
       </button>
       {basket && <p>Added to cart!</p>}

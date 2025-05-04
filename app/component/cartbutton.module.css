@@ -1,2 +1,5 @@
-.cart_button {
+@reference "../globals.css";
+
+.cartbutton {
+    @apply bg-green-500 text-white p-2 rounded-md
 }
