@@ -1,13 +1,2 @@
-/* Set the background color to a shade of green (background-color: #4CAF50;).
-Set the text color to white (color: white;).
-Add some padding around the text (padding: 10px 20px;).
-Remove the border (border: none;).
-Make the cursor a pointer on hover (cursor: pointer;).
- */
- .add_button {
-     background: #4CAF50;
-     color: white;
-     padding: 10px 20px;
-     border: black;
-     cursor: pointer;
- }
+.cart_button {
+}

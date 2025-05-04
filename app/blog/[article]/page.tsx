@@ -11,7 +11,7 @@ type BlogParams = {
   article: string;
 }
 
-export default async function RenderPage({params}: {params: BlogParams}) {
+export default function RenderPage({params}: {params: BlogParams}) {
   return (
     <div>
       <h3>My Blog Post {params.article}</h3>
